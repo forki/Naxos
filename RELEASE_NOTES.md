@@ -1,3 +1,6 @@
+#### 0.0.4-alpha - July 1 2015 
+* Enable source link
+
 #### 0.0.3-alpha - July 1 2015 
 * Third release attempt
 
