@@ -4,11 +4,11 @@ owners
 authors 
     wezhu
 projectUrl
-    http://github.com/WezhuTest/ProjectNaxos
+    http://github.com/WezhuTest/Naxos
 iconUrl
-    https://raw.githubusercontent.com/WezhuTest/ProjectNaxos/master/docs/files/img/logo.png
+    https://raw.githubusercontent.com/WezhuTest/Naxos/master/docs/files/img/logo.png
 licenseUrl
-    http://github.com/WezhuTest/ProjectNaxos/blob/master/LICENSE.txt
+    http://github.com/WezhuTest/Naxos/blob/master/LICENSE.txt
 requireLicenseAcceptance
     false
 copyright

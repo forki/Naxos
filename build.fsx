@@ -27,7 +27,7 @@ open SourceLink
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "ProjectNaxos"
+let project = "Naxos"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
