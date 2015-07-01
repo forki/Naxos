@@ -1,0 +1,23 @@
+type project
+owners
+    wezhu
+authors 
+    wezhu
+projectUrl
+    http://github.com/WezhuTest/ProjectNaxos
+iconUrl
+    https://raw.githubusercontent.com/WezhuTest/ProjectNaxos/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/WezhuTest/ProjectNaxos/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    Test
+summary
+    Project Naxos
+description
+    Project Naxos
+
+
