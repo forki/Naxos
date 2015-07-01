@@ -44,7 +44,7 @@ let authors = [ "wezhu" ]
 let tags = "Test"
 
 // File system information 
-let solutionFile  = "ProjectNaxos.sln"
+let solutionFile  = "Naxos.sln"
 
 // Pattern specifying assemblies to be tested using NUnit
 let testAssemblies = "tests/**/bin/Release/*Tests*.dll"

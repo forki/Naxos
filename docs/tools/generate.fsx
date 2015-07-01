@@ -11,17 +11,17 @@
 // (This is the original behaviour of ProjectScaffold prior to multi project support)
 let referenceBinaries = []
 // Web site location for the generated documentation
-let website = "/ProjectNaxos"
+let website = "/Naxos"
 
 let githubLink = "http://github.com/WezhuTest/Naxos"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "ProjectNaxos"
+  [ "project-name", "Project Naxos"
     "project-author", "wezhu"
     "project-summary", "Project Naxos"
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/ProjectNaxos" ]
+    "project-nuget", "http://nuget.org/packages/Naxos" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below

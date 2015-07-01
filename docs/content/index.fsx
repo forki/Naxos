@@ -1,10 +1,10 @@
 (*** hide ***)
 // This block of code is omitted in the generated HTML documentation. Use 
 // it to define helpers that you do not want to show in the documentation.
-#I "../../bin"
+#I "../../bin/Naxos"
 
 (**
-ProjectNaxos
+Project Naxos
 ======================
 
 Documentation
@@ -13,8 +13,8 @@ Documentation
   <div class="span1"></div>
   <div class="span6">
     <div class="well well-small" id="nuget">
-      The ProjectNaxos library can be <a href="https://nuget.org/packages/ProjectNaxos">installed from NuGet</a>:
-      <pre>PM> Install-Package ProjectNaxos</pre>
+      The Project Naxos library can be <a href="https://nuget.org/packages/Naxos">installed from NuGet</a>:
+      <pre>PM> Install-Package Naxos</pre>
     </div>
   </div>
   <div class="span1"></div>
@@ -26,10 +26,11 @@ Example
 This example demonstrates using a function defined in this sample library.
 
 *)
-#r "ProjectNaxos.dll"
-open ProjectNaxos
+#r "Naxos.dll"
+open Naxos
 
-printfn "hello = %i" <| Library.hello 0
+let x = null 
+printfn "%b" (Utils.IsNull(x))
 
 (**
 Some more info
@@ -59,9 +60,9 @@ The library is available under Public Domain license, which allows modification 
 redistribution for both commercial and non-commercial purposes. For more information see the 
 [License file][license] in the GitHub repository. 
 
-  [content]: https://github.com/fsprojects/ProjectNaxos/tree/master/docs/content
-  [gh]: https://github.com/fsprojects/ProjectNaxos
-  [issues]: https://github.com/fsprojects/ProjectNaxos/issues
-  [readme]: https://github.com/fsprojects/ProjectNaxos/blob/master/README.md
-  [license]: https://github.com/fsprojects/ProjectNaxos/blob/master/LICENSE.txt
+  [content]: https://github.com/WeZhuTest/Naxos/tree/master/docs/content
+  [gh]: https://github.com/WeZhuTest/Naxoss
+  [issues]: https://github.com/WeZhuTest/Naxos/issues
+  [readme]: https://github.com/WeZhuTest/Naxos/blob/master/README.md
+  [license]: https://github.com/WeZhuTest/Naxos/blob/master/LICENSE.txt
 *)

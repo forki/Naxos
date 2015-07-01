@@ -1,4 +1,4 @@
-module ProjectNaxos.Tests
+module Naxos.Tests
 
 open Naxos
 open NUnit.Framework

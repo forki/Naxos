@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProjectNaxos", "src\ProjectNaxos\ProjectNaxos.fsproj", "{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
 	ProjectSection(SolutionItems) = preProject
 		build.fsx = build.fsx
@@ -33,7 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{8E6D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProjectNaxos.Tests", "tests\ProjectNaxos.Tests\ProjectNaxos.Tests.fsproj", "{6295DF9F-44DD-4BEA-A70C-A525604C612C}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Naxos.Tests", "tests\Naxos.Tests\Naxos.Tests.fsproj", "{6295DF9F-44DD-4BEA-A70C-A525604C612C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Naxos", "src\Naxos\Naxos.fsproj", "{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,14 +41,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6295DF9F-44DD-4BEA-A70C-A525604C612C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6295DF9F-44DD-4BEA-A70C-A525604C612C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6295DF9F-44DD-4BEA-A70C-A525604C612C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6295DF9F-44DD-4BEA-A70C-A525604C612C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8503D58-2DB8-49C6-9B3C-BF41C06B737F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

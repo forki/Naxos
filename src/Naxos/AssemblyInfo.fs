@@ -1,7 +1,7 @@
 ﻿namespace System
 open System.Reflection
 
-[<assembly: AssemblyTitleAttribute("ProjectNaxos")>]
+[<assembly: AssemblyTitleAttribute("Naxos")>]
 [<assembly: AssemblyProductAttribute("Naxos")>]
 [<assembly: AssemblyDescriptionAttribute("Project Naxos")>]
 [<assembly: AssemblyVersionAttribute("0.0.2")>]

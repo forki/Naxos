@@ -10,8 +10,8 @@ Introducing your project
 Say more
 
 *)
-#r "ProjectNaxos.dll"
-open ProjectNaxos
+#r "Naxos.dll"
+open Naxos
 
 Library.hello 0
 (**
