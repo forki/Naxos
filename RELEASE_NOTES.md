@@ -1,3 +1,6 @@
+#### 0.0.5-alpha - July 2 2015 
+* Enable source link attempt 2: fix line endings
+
 #### 0.0.4-alpha - July 1 2015 
 * Enable source link
 
