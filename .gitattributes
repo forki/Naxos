@@ -23,3 +23,7 @@
 *.PDF diff=astextplain
 *.rtf diff=astextplain
 *.RTF diff=astextplain
+
+# Use LF in the working directory by default. Override with core.autocrlf=true.
+*.cs eol=lf
+*.fs eol=lf
