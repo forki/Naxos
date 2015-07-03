@@ -1,3 +1,6 @@
+#### 0.0.10-alpha - July 2 2015 
+* Put two dlls into Nuget package
+
 #### 0.0.9-alpha - July 2 2015 
 * Enable source link attempt 4: worked around a F# 3.1 sprintf bug
 
