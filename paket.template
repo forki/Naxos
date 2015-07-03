@@ -33,4 +33,4 @@ frameworkAssemblies
     System
     System.Core
 dependencies
-    FSharp.Core >= 4.3.1.0
+    FSharp.Core >= 4.3.1
