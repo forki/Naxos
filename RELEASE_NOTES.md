@@ -1,3 +1,6 @@
+#### 0.0.14-alpha - July 3 2015 
+* Experiemnt generating two nuget packages
+
 #### 0.0.13-alpha - July 3 2015 
 * Play with it a bit more
 
