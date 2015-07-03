@@ -1,3 +1,6 @@
+#### 0.0.13-alpha - July 3 2015 
+* Play with it a bit more
+
 #### 0.0.12-alpha - July 3 2015 
 * Dependencies
 

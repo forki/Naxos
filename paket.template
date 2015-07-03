@@ -29,6 +29,9 @@ files
     src/Tools/Tools/bin/Release/Tools.xml ==> lib\net40
 references
     Naxos.dll
+    Tools.dll
 frameworkAssemblies
     System
     System.Core
+dependencies
+    FSharp.Core >= 3.1.2
