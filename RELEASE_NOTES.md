@@ -1,3 +1,6 @@
+#### 0.0.12-alpha - July 3 2015 
+* Dependencies
+
 #### 0.0.11-alpha - July 2 2015 
 * Dependencies
 
