@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>StringTComparer<'T> - Project Naxos</title>
+    <title>StringTools - Project Naxos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content=""/>
     <meta name="author" content="wezhu"/>
@@ -35,66 +35,118 @@
 
 
 
-<h1>StringTComparer<'T></h1>
+<h1>StringTools</h1>
 <p>
-  <span>Namespace: Naxos</span><br />
+  <span>Namespace: Naxos.Tools</span><br />
 </p>
 <div class="xmldoc">
-<p>The class is constructured to take a comparer of string, and a type T that supports equality, and construct a new comparer</p>
+<p>A set of helper routine for string operations</p>
 
 
 </div>
-  <h3>Record Fields</h3>
+
+<!-- Render nested types and modules, if there are any -->
+
+  <h3>Functions and values</h3>
   <table class="table table-bordered member-list">
     <thead>
-      <tr><td>Record Field</td><td>Description</td></tr>
+      <tr><td>Function or value</td><td>Description</td></tr>
     </thead>
     <tbody>
       <tr>
         <td class="member-name">
 
-          <code onmouseout="hideTip(event, '8', 8)" onmouseover="showTip(event, '8', 8)">
-            _comp
+          <code onmouseout="hideTip(event, '3', 3)" onmouseover="showTip(event, '3', 3)">
+            CreateFileStreamForRead fname
           </code>
-          <div class="tip" id="8">
-            <strong>Signature:</strong> StringComparer<br />
+          <div class="tip" id="3">
+            <strong>Signature:</strong> fname:string -&gt; FileStream<br />
                       </div>
         </td>
         <td class="xmldoc">
-            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Naxos/Naxos.fs#L22-22" class="github-link">
+            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Tools/Tools/Tools.fs#L73-73" class="github-link">
               <img src="../content/img/github.png" class="normal" />
               <img src="../content/img/github-blue.png" class="hover" />
             </a>
-          <p>comparer of string used.</p>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '4', 4)" onmouseover="showTip(event, '4', 4)">
+            CreateFileStreamForWrite fname
+          </code>
+          <div class="tip" id="4">
+            <strong>Signature:</strong> fname:string -&gt; FileStream<br />
+                      </div>
+        </td>
+        <td class="xmldoc">
+            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Tools/Tools/Tools.fs#L63-63" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '5', 5)" onmouseover="showTip(event, '5', 5)">
+            ReadBytesFromFile filename
+          </code>
+          <div class="tip" id="5">
+            <strong>Signature:</strong> filename:string -&gt; byte []<br />
+                      </div>
+        </td>
+        <td class="xmldoc">
+            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Tools/Tools/Tools.fs#L30-30" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          <p>Read a byte[] from files</p>
 
 
 
         </td>
       </tr>
-    </tbody>
-  </table>
-  <h3>Constructors</h3>
-  <table class="table table-bordered member-list">
-    <thead>
-      <tr><td>Constructor</td><td>Description</td></tr>
-    </thead>
-    <tbody>
       <tr>
         <td class="member-name">
 
-          <code onmouseout="hideTip(event, '9', 9)" onmouseover="showTip(event, '9', 9)">
-            new(comp)
+          <code onmouseout="hideTip(event, '6', 6)" onmouseover="showTip(event, '6', 6)">
+            ReadToEnd stream
           </code>
-          <div class="tip" id="9">
-            <strong>Signature:</strong> comp:StringComparer -&gt; StringTComparer&lt;&#39;T&gt;<br />
+          <div class="tip" id="6">
+            <strong>Signature:</strong> stream:Stream -&gt; byte []<br />
                       </div>
         </td>
         <td class="xmldoc">
-            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Naxos/Naxos.fs#L24-24" class="github-link">
+            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Tools/Tools/Tools.fs#L43-43" class="github-link">
               <img src="../content/img/github.png" class="normal" />
               <img src="../content/img/github-blue.png" class="hover" />
             </a>
-          <p>Constract a comparer that compares a tuple of String*'T, in which 'T supports equality, and comp is a comparer of string</p>
+          <p>Read an entire stream to byte[]</p>
+
+
+
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '7', 7)" onmouseover="showTip(event, '7', 7)">
+            ReplaceString (...)
+          </code>
+          <div class="tip" id="7">
+            <strong>Signature:</strong> str:string -&gt; oldValue:string -&gt; newValue:string -&gt; comparison:StringComparison -&gt; string<br />
+                      </div>
+        </td>
+        <td class="xmldoc">
+            <a href="http://github.com/WezhuTest/Naxos/tree/master/src/Tools/Tools/Tools.fs#L12-12" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          <p>String.Replace, but take a comparison</p>
 
 
 
