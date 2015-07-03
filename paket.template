@@ -1,0 +1,36 @@
+type file
+id Naxos
+owners
+    wezhu
+authors 
+    wezhu
+projectUrl
+    http://github.com/WezhuTest/Naxos
+iconUrl
+    https://raw.githubusercontent.com/WezhuTest/Naxos/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/WezhuTest/Naxos/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    Test
+summary
+    Project Naxos
+description
+    Project Naxos
+files
+    src/Naxos/bin/Release/Naxos.dll ==> lib\net40
+    src/Naxos/bin/Release/Naxos.pdb ==> lib\net40
+    src/Naxos/bin/Release/Naxos.xml ==> lib\net40
+    src/Tools/Tools/bin/Release/Tools.dll ==> lib\net40 
+    src/Tools/Tools/bin/Release/Tools.pdb ==> lib\net40
+    src/Tools/Tools/bin/Release/Tools.xml ==> lib\net40
+references
+    Naxos.dll
+frameworkAssemblies
+    System
+    System.Core
+dependencies
+    FSharp.Core >= 4.3.1.0

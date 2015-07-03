@@ -59,7 +59,6 @@
   <ItemGroup>
     <Compile Include="Tools.fs" />
     <None Include="paket.references" />
-    <None Include="paket.template" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -68,8 +67,5 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Data.Linq" />
-    <Reference Include="System.Numerics" />
   </ItemGroup>
 </Project>
