@@ -1,3 +1,6 @@
+#### 0.0.11-alpha - July 2 2015 
+* Dependencies
+
 #### 0.0.10-alpha - July 2 2015 
 * Put two dlls into Nuget package
 
