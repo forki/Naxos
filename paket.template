@@ -32,5 +32,3 @@ references
 frameworkAssemblies
     System
     System.Core
-dependencies
-    FSharp.Core >= 4.3.1
