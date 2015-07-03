@@ -1,3 +1,6 @@
+#### 0.0.9-alpha - July 2 2015 
+* Enable source link attempt 4: worked around a F# 3.1 sprintf bug
+
 #### 0.0.8-alpha - July 2 2015 
 * Enable source link attempt 3: update to source link 1.0.0
 
